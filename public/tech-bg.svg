@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#6d7bff" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <g stroke="#7c6cff" stroke-opacity=".32" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M60 140H240V240H400V320"/>
+    <path d="M0 420H160V520H320"/>
+    <path d="M1200 160H1020V260H900"/>
+    <path d="M1200 600H1040V520H960"/>
+    <path d="M420 0V90H560V170"/>
+    <path d="M760 800V700H880V620H960"/>
+    <path d="M200 800V690H340"/>
+    <path d="M700 0V60H820"/>
+    <rect x="940" y="380" width="120" height="120" rx="10"/>
+    <path d="M960 380V360M1000 380V360M1040 380V360M960 500V520M1000 500V520M1040 500V520M940 410H920M940 440H920M940 470H920M1060 410H1080M1060 440H1080M1060 470H1080"/>
+    <rect x="968" y="408" width="64" height="64" rx="6" stroke-opacity=".2"/>
+  </g>
+  <g fill="#8ea2ff" fill-opacity=".6">
+    <circle cx="400" cy="320" r="4"/><circle cx="320" cy="520" r="4"/>
+    <circle cx="900" cy="260" r="4"/><circle cx="960" cy="520" r="4"/>
+    <circle cx="560" cy="170" r="4"/><circle cx="960" cy="620" r="4"/>
+    <circle cx="340" cy="690" r="4"/><circle cx="820" cy="60" r="4"/>
+    <circle cx="60" cy="140" r="4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#8ea2ff" fill-opacity=".22">
+    <text x="470" y="400">&lt;/&gt;</text>
+    <text x="110" y="640">{ }</text>
+    <text x="760" y="330">( )</text>
+    <text x="1080" y="720">[ ]</text>
+    <text x="620" y="560">=&gt;</text>
+  </g>
+</svg>

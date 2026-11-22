@@ -1,0 +1,14 @@
+# Editorial Portfolio Architecture Rules
+
+1. **Aesthetic Reference:** Maintain the quiet, print-editorial restraint of `davidwhyte.com`. Never introduce SaaS templates, hero gradients, floating badges, or bento grids.
+2. **Color Tokens Only:**
+   - Canvas: `#EFEAE2` (Subtle surface: `#E6E0D6`)
+   - Primary Ink: `#1C1B1A`
+   - Muted Ink: `#6E6A63`
+   - Accent: `#064734` (Use ONLY for text underlines and link hover states—never for filled buttons or banners).
+3. **Zero Card Chrome:** Never use `box-shadow`, `rounded-*` border radii, or card borders. Separate sections strictly with generous vertical whitespace (`py-24` / `py-32`) and `1px` hairline rules (`border-[#1C1B1A]/15`).
+4. **Typography:**
+   - Headings & quotes: `font-serif` (`Cormorant Garamond`) at weight `400` or `400 italic`. Never apply `font-bold` or `font-semibold` to serif text.
+   - Body & metadata: `font-sans` (`Plus Jakarta Sans`).
+5. **Motion Cap:** Do not add Framer Motion, GSAP scroll-jacking, parallax, or scale-on-hover transforms. Limit transitions to `duration-500` color/opacity shifts.
+6. **Content Separation:** All copy, metrics, and case studies must live inside `src/data/portfolio.ts`, never hardcoded inside JSX components.

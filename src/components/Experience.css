@@ -1,0 +1,104 @@
+/* Experience */
+.exp-list {
+    display: grid;
+    gap: 28px;
+    margin-top: 40px;
+    padding-left: 28px;
+    border-left: 1px solid var(--line-strong);
+}
+
+.exp {
+    position: relative;
+}
+
+.exp::before {
+    content: "";
+    position: absolute;
+    left: -33px;
+    top: 34px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+.exp-card {
+    padding: 28px;
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    background: var(--surface);
+    box-shadow: var(--shadow-md);
+}
+
+.exp-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px 20px;
+}
+
+.exp-head h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    letter-spacing: -0.03em;
+    color: var(--text);
+}
+
+.exp-company {
+    margin: 4px 0 0;
+    font-size: 0.95rem;
+    color: var(--muted);
+}
+
+.exp-when {
+    padding: 6px 14px;
+    border: 1px solid var(--accent-line);
+    border-radius: 999px;
+    background: var(--accent-soft);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--accent-text);
+    white-space: nowrap;
+}
+
+.exp-points {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.exp-points li {
+    position: relative;
+    padding-left: 18px;
+    font-size: 0.97rem;
+    color: var(--text-2);
+}
+
+.exp-points li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.65em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+@media (max-width: 820px) {
+    .exp-list {
+        padding-left: 20px;
+    }
+
+    .exp::before {
+        left: -25px;
+    }
+
+    .exp-card {
+        padding: 22px;
+    }
+}
